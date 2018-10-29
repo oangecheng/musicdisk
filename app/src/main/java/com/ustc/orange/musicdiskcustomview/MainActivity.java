@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     MusicDiskLayout musicDiskLayout = findViewById(R.id.music_disk);
     musicDiskLayout
         .setAnimationDurationMills(3000)
-        .setMusicIconNum(2)
+        .setMusicIconNum(3)
         .init();
     musicDiskLayout.start();
   }
