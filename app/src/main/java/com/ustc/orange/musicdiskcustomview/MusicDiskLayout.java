@@ -87,9 +87,9 @@ public class MusicDiskLayout extends FrameLayout {
     int musicIconSize = size / 6;
     initDiskView(size);
 
-    mPointFControl = new PointF(0.10f * size, 0.5f * size);
+    mPointFControl = new PointF(0.20f * size, 0.5f * size);
     mPointFStart = new PointF(0.85f * size, 0.65f * size);
-    mPointFEnd = new PointF(0.70f * size, 0.15f * size);
+    mPointFEnd = new PointF(0.70f * size, 0.20f * size);
 
     mMusicIconLayoutParams = new LayoutParams(musicIconSize, musicIconSize);
     mBezierEvaluator = new BezierEvaluator();

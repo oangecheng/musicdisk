@@ -5,16 +5,15 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-  MusicDiskLayout musicDiskLayout;
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-    musicDiskLayout = findViewById(R.id.music_disk);
+    MusicDiskLayout musicDiskLayout = findViewById(R.id.music_disk);
     musicDiskLayout
-        .setAnimationDurationMills(5000)
-        .setMusicIconNum(3)
+        .setAnimationDurationMills(3000)
+        .setMusicIconNum(2)
         .init();
     musicDiskLayout.start();
   }
